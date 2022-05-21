@@ -46,7 +46,7 @@ function Vision() {
                 </li>
                 <li className="v-hide ">
                   <img src={Church} alt="" className="img-fluid" />
-                  <button className="event-btn">ENT</button>
+                  <button className="event-btn">EVENT</button>
                 </li>
               </ul>
             </div>

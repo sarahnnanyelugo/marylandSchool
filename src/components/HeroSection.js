@@ -116,7 +116,6 @@ function HeroSection() {
               </div>
               <div className="mt-5 flexy">
                 <a
-                  // style={{ color: "rgb(78,161,73)", padding: 10 }}
                   href={"/principal"}
                   className="read"
                 >

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 function Eyfs() {
   return (
     <>
-      <section>
+      <section >
         <div className="header-img">
           <img src={Pex} alt="Header" className="img-fluid" />
         </div>
@@ -23,7 +23,7 @@ function Eyfs() {
             <div className="col-md-10 sen">
               <h4>
                 GO BEYOND INSTRUCTION; INSPIRE LEADERSHIP{" "}
-                <img src={Circle2} alt="Header" className="img-fluid cir2" />
+                <img src={Circle2} alt="Header" className="img-fluid cir" />
               </h4>
               <p>
                 From personalized and targeted instruction in the classroom to

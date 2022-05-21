@@ -33,6 +33,7 @@ height: 453px;
     width: 100%; */
     /* object-fit: cover; */
     object-fit: center;
+    width:100%
 }
 
 
@@ -464,7 +465,6 @@ label{
 
 
 
-
 @media (min-width: 960px) {
   .flexy{
     display:flex;
@@ -689,5 +689,5 @@ min-height: 300px !important;
 
 
 .mov{
-  margin-top:-0px
+  margin-top:-100px !important
 }

@@ -115,9 +115,13 @@ function HeroSection() {
                 </p>
               </div>
               <div className="mt-5 flexy">
-                <button to={"/principal"} className="read">
+                <a
+                  // style={{ color: "rgb(78,161,73)", padding: 10 }}
+                  href={"/principal"}
+                  className="read"
+                >
                   Read More
-                </button>
+                </a>
                 <div className="col-md-2">&nbsp;</div>
 
                 <img className="line d-block " src={Line} alt="" />

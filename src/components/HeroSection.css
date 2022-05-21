@@ -263,7 +263,8 @@
     height: 50px;
     width: 150px;
     transition: all .5s ease;
-    margin-top:-40px
+    margin-top:-40px;
+    padding:10px;
 }
 
 .read:focus{
@@ -1001,4 +1002,6 @@
         margin-top:-0px !important;
     }
 
-   
+a .read{
+       color:red;
+   }

@@ -119,10 +119,10 @@ function Footer() {
                     <h6 className="use text-white">Useful Links </h6>
                     <ul className="grade-level">
                       <li>
-                        <a href={"../Nursery"}>Junior School</a>
+                        <a href={"/junior"}>Junior School</a>
                       </li>
                       <li>
-                        <a href={"../Eyfs"}>Senior School</a>
+                        <a href={"/senior"}>Senior School</a>
                       </li>
                       <li>
                         <a href={"/Contact"}>Enquire</a>

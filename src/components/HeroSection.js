@@ -253,7 +253,7 @@ function HeroSection() {
               <label2 htmlFor="">EXPLORE</label2>
               <h1>Take A School Tour</h1>
               <p>
-                Our Campus Have A Lot To Offer For Our Studentsc{" "}
+                Our Campus Have A Lot To Offer For Our Students{" "}
                 <span className="levt">
                   {" "}
                   <img className="circle img-fluid " src={Circle} alt="" />

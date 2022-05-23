@@ -22,6 +22,7 @@ import Eyfs from "./components/pages/sub_pages/Learning/Eyfs";
 import Nursery from "./components/pages/sub_pages/Learning/Nursery";
 import Curriculum from "./components/pages/sub_pages/School/Curriculum";
 import Gallery from "./components/pages/Gallery";
+import News from "./components/pages/News";
 
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
                   <Route path={"/senior"} component={Eyfs} />
                   <Route path={"/junior"} component={Nursery} />
                   <Route path={"/school"} component={Curriculum} />
+                  <Route path={"/News"} component={News} />
 
                   <Route path="*" component={NotFound} />
                 </Switch>

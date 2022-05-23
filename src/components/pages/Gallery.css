@@ -7,8 +7,13 @@ Tab label:active{
 }
 
 .levt{
-    margin-left:200px;
+    margin-left:700px;
 }
-.space{
-width:400px
-    }
+
+
+
+@media (max-width: 600px) {
+  .levt{
+ margin-left:100px !important;
+  }
+}

@@ -143,7 +143,7 @@ function NavBar() {
 
           <li className="nav-item ">
             <NavLink
-              to={"/gallery"}
+              to={"/News"}
               className="nav-links"
               onClick={closeMobileMenu}
             >
@@ -254,13 +254,13 @@ function NavBar() {
               </li>
 
               <li className="item" id="support">
-                <a href="#support" class="btn">
+                <a href="/Gallery" class="btn">
                   Gallery
                 </a>
               </li>
 
               <li className="item" id="support">
-                <a href="#support" class="btn">
+                <a href="/News" class="btn">
                   News & Events
                 </a>
               </li>

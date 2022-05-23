@@ -12,7 +12,7 @@ import GalleryIndex2 from "../../components/gallery/GalleryIndex2";
 
 import "../HeroSection.css";
 
-function GalleryIndex() {
+function GalleryIndex0() {
   return (
     <>
       <table className="gallery">
@@ -173,8 +173,9 @@ function GalleryIndex() {
         </tr>
       </table>
 
+      <GalleryIndex2 />
     </>
   );
 }
-export default GalleryIndex;
+export default GalleryIndex0;
 

@@ -8,6 +8,8 @@ import "./Gallery.css";
 import GalleryIndex from "../../components/gallery/GalleryIndex";
 import GalleryIndex2 from "../../components/gallery/GalleryIndex2";
 import GalleryIndex3 from "../../components/gallery/GalleryIndex3";
+import GalleryIndex0 from "../../components/gallery/GalleryIndex0";
+
 import "./Gallery.css";
 import { CBreadcrumbItem } from "@coreui/react";
 import { CBreadcrumb } from "@coreui/react";
@@ -61,7 +63,6 @@ function Gallery() {
             <Tab label="Cultural Events" />
             <Tab label="Inaugurations" />
             <Tab label="Sports Contests" />
-            <Tab label="Inaugurations" />
 
             <Tab label="School Facilities" />
           </Tabs>
@@ -70,9 +71,9 @@ function Gallery() {
           {value === 1 ? <GalleryIndex2 /> : ""}
           {value === 2 ? <GalleryIndex3 /> : ""}
           {value === 3 ? <GalleryIndex3 /> : ""}
-          {value === 1 ? <GalleryIndex2 /> : ""}
-          {value === 1 ? <GalleryIndex2 /> : ""}
-          {value === 1 ? <GalleryIndex2 /> : ""}
+          {value === 4 ? <GalleryIndex2 /> : ""}
+          {value === 5 ? <GalleryIndex2 /> : ""}
+          {value === 6 ? <GalleryIndex2 /> : ""}
         </div>
       </section>
     </>

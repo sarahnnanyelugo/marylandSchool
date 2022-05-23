@@ -78,13 +78,13 @@ function HeroSection() {
               <Link>Search</Link>{" "}
             </div>
             <div className="enquire-fixed help">
-              <Link>Enquire</Link>
+              <Link to="/Contact">Enquire</Link>
             </div>
             <div className="apply-fixed help">
-              <Link>Apply</Link>
+              <Link to="/Apply">Apply</Link>
             </div>
             <div className="visit-fixed help">
-              <Link>Visit</Link>
+              <Link to="/Contact">Visit</Link>
             </div>
           </div>
         </div>
@@ -418,8 +418,10 @@ function HeroSection() {
                 </td>
               </tr>
             </table> */}
-            <div className="more-news">
-              <button>More News + Events</button>
+            <div>
+              <Link to="/Gallery" className="more-news1">
+                <button>Go to Gallery</button>
+              </Link>
             </div>
           </div>
         </div>

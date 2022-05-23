@@ -5,6 +5,7 @@ import Violin from "../assets/1632735791._DSC3088@2x.png";
 import Interhouse from "../assets/fe@2x.png";
 import Church from "../assets/1632735791._DSC3088eee@2x.png";
 import Circle2 from "../assets/Circle.png";
+import { Link } from "react-router-dom";
 
 import "./Vision.css";
 
@@ -50,8 +51,10 @@ function Vision() {
                 </li>
               </ul>
             </div>
-            <div className="more-news1">
-              <button>More News + Events</button>
+            <div>
+              <Link to="/News" className="more-news1">
+                <button>More News + Events</button>
+              </Link>
             </div>
           </Item>
           <Item>
@@ -71,8 +74,10 @@ function Vision() {
                 </li>
               </ul>
             </div>
-            <div className="more-news1">
-              <button>More News + Events</button>
+            <div>
+              <Link to="/News" className="more-news1">
+                <button>More News + Events</button>
+              </Link>
             </div>
           </Item>
           <Item>
@@ -92,8 +97,10 @@ function Vision() {
                 </li>
               </ul>
             </div>
-            <div className="more-news1">
-              <button>More News + Events</button>
+            <div>
+              <Link to="/News" className="more-news1">
+                <button>More News + Events</button>
+              </Link>
             </div>
           </Item>
         </Carousel>

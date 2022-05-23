@@ -133,7 +133,7 @@ function NavBar() {
             onMouseLeave={onMouseLeave}
           >
             <NavLink
-              to={"/news"}
+              to={"/gallery"}
               className="nav-links"
               onClick={closeMobileMenu}
             >

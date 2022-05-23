@@ -83,8 +83,6 @@
         display: block;
     }
 
-
-
     .nav-list{
         display: flex;
         flex-direction: column;
@@ -153,6 +151,10 @@
 
 
 
+
+.ph:hover{
+    background-color:orange !important;
+}
 .wrapper{
     position: absolute;
     top: 50%;

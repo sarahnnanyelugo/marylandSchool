@@ -21,6 +21,8 @@ import Result from "./components/pages/sub_pages/Academics/Result";
 import Eyfs from "./components/pages/sub_pages/Learning/Eyfs";
 import Nursery from "./components/pages/sub_pages/Learning/Nursery";
 import Curriculum from "./components/pages/sub_pages/School/Curriculum";
+import Gallery from "./components/pages/Gallery";
+
 
 function App() {
   return (
@@ -38,6 +40,7 @@ function App() {
                   <Route path={"/learn"} component={Learn} />
                   <Route path={"/school"} component={School} />
                   <Route path={"/contact"} component={Contact} />
+                  <Route path={"/gallery"} component={Gallery} />
                   <Route path={"/history"} component={History} />
                   <Route path={"/message"} component={HumanResources} />
                   <Route path={"/principal"} component={PrincipalsDesk} />

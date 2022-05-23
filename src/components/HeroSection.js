@@ -17,19 +17,18 @@ import Photos8 from "../assets/Rectangle9rrr@2x.png";
 import Photo1 from "../assets/Rectanglefff@2x.png";
 import Teacher from "../MaryLand/1632735791._DSC3088@2x.png";
 import { Link } from "react-router-dom";
-import Cart from "./Carousel"
+import Cart from "./Carousel";
 import Violin from "../assets/1632735791._DSC3088@2x.png";
 import Play from "../assets/1632735791._DSC3088ed@2x.png";
 import Line from "../assets/Rectangle 10018@2x.png";
 import Circle from "../assets/Circle.svg";
 import Circle2 from "../assets/Circle.png";
+import GalleryIndex from "./gallery/GalleryIndex"
 
 import Vision from "./Vision";
 import "./HeroSection.css";
 
 function HeroSection() {
-
-
   return (
     <>
       <div className="page-trans ">
@@ -115,10 +114,7 @@ function HeroSection() {
                 </p>
               </div>
               <div className="mt-5 flexy">
-                <a
-                  href={"/principal"}
-                  className="read"
-                >
+                <a href={"/principal"} className="read">
                   Read More
                 </a>
                 <div className="col-md-2">&nbsp;</div>
@@ -250,6 +246,7 @@ function HeroSection() {
 
         <Vision />
         <Cart />
+
         <div className="gallery-cont">
           <div className="btm-yellow">
             <div className="gallery-head">
@@ -263,7 +260,8 @@ function HeroSection() {
                 </span>
               </p>
             </div>
-            <table className="gallery">
+            <GalleryIndex />
+            {/* <table className="gallery">
               <tr>
                 <td className="mic-img">
                   <div
@@ -419,7 +417,7 @@ function HeroSection() {
                   </div>
                 </td>
               </tr>
-            </table>
+            </table> */}
             <div className="more-news">
               <button>More News + Events</button>
             </div>

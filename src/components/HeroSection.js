@@ -419,7 +419,7 @@ function HeroSection() {
               </tr>
             </table> */}
             <div>
-              <Link to="/Gallery" className="more-news1">
+              <Link to="/News" className="more-news1">
                 <button>Go to Gallery</button>
               </Link>
             </div>

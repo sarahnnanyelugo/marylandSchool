@@ -36,7 +36,9 @@ function Footer() {
               <img src={Enquire} alt="stairs " className="img-fluid" />
             </div>
             <div className="ing-tag">
-              <h4>Enquire</h4>
+              <Link to="/Contact">
+                <h4>Enquire</h4>
+              </Link>
             </div>
           </div>
           <div className="col-md-4 col-lg-4 col-sm-12 col-xs-12 ">
@@ -44,7 +46,9 @@ function Footer() {
               <img src={Visit} alt="stairs" className="img-fluid" />
             </div>
             <div className="ing-tag">
-              <h4>Visit</h4>
+              <Link to="/Contact">
+                <h4>Visit</h4>
+              </Link>{" "}
             </div>
           </div>
           <div className="col-md-4 col-lg-4 col-sm-12 col-xs-12 ">
@@ -56,7 +60,9 @@ function Footer() {
               </div> */}
             </div>
             <div className="ing-tag">
-              <h4>Apply</h4>
+              <Link to="/Apply">
+                <h4>Apply</h4>
+              </Link>{" "}
             </div>
           </div>
         </div>
@@ -113,16 +119,16 @@ function Footer() {
                     <h6 className="use text-white">Useful Links </h6>
                     <ul className="grade-level">
                       <li>
-                        <a href="#">Junior School</a>
+                        <a href={"../Nursery"}>Junior School</a>
                       </li>
                       <li>
-                        <a href="#">Senior School</a>
+                        <a href={"../Eyfs"}>Senior School</a>
                       </li>
                       <li>
-                        <a href="#">Enquire</a>
+                        <a href={"/Contact"}>Enquire</a>
                       </li>
                       <li>
-                        <a href="#">Apply</a>
+                        <a href={"/Apply"}>Apply</a>
                       </li>
                     </ul>
                   </div>

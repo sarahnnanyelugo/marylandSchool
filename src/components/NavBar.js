@@ -56,6 +56,11 @@ function NavBar() {
 
   const handleClick = () => setClick(!click)
   const closeMobileMenu = () => setClick(false)
+  const openPortalLink = () => {
+    const portal =
+      "https://marylandcomprehensive.educare.school/default.html#/admin/dashboard";
+    window.open(portal)
+  };
 
   return (
     <nav className="navContainer">
@@ -152,8 +157,14 @@ function NavBar() {
           </li>
 
           <li className="ph">
-            <button className={classes.btnPortal}>
-              <img src={fIcon} alt="person" className={classes.fIcon} />
+            {" "}
+            <button className={classes.btnPortal} onClick={openPortalLink}>
+              <img
+                src={fIcon}
+                alt="person"
+                className={classes.fIcon}
+               
+              />
               Portal
             </button>
           </li>

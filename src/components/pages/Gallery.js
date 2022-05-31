@@ -66,7 +66,7 @@ function Gallery() {
 
             <Tab label="School Facilities" />
           </Tabs>
-          <h3>{value + 1} </h3>
+          {/* <h3>{value + 1} </h3> */}
           {value === 0 ? <GalleryIndex /> : ""}
           {value === 1 ? <GalleryIndex2 /> : ""}
           {value === 2 ? <GalleryIndex3 /> : ""}

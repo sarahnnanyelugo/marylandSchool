@@ -20,7 +20,7 @@ function Eyfs() {
           </div>
 
           <div className="col-md-12 row flexy">
-            <div className="col-md-10 sen">
+            <div className="col-md-9 sen">
               <h4>
                 GO BEYOND INSTRUCTION; INSPIRE LEADERSHIP{" "}
                 <img src={Circle2} alt="Header" className="img-fluid cir" />
@@ -37,7 +37,7 @@ function Eyfs() {
               <br />
             </div>
 
-            <div className=" create col-md-2">
+            <div className=" create col-md-3">
               <div className="sub-cover">
                 <ul className="sub-menu">
                   <li>

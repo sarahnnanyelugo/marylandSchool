@@ -101,7 +101,11 @@ height: 453px;
 }
 
 .sen{
-  margin-top:190px;
+  margin-top:90px;
+}
+.sen p{
+  text-align: justify;
+  
 }
 .bread-crumbs {
   position: relative;
@@ -344,6 +348,10 @@ padding-top: 20px;
   .sub-cover{
 display:none;
   }
+
+.mov{
+  margin-top:-600px !important
+}
 
 
 
@@ -688,10 +696,6 @@ min-height: 300px !important;
 }
 
 
-.mov{
-  margin-top:-100px !important
-}
-
 .para {
   font-size:27px !important;
   text-align: justify;
@@ -706,4 +710,8 @@ min-height: 300px !important;
 .create h4{
   margin-bottom:1px !important;
   margin-top:20px !important;
+}
+
+.mov{
+  margin-top:-300px !important
 }

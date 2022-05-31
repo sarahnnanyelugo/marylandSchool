@@ -267,7 +267,7 @@ function NavBar() {
               <li class="item">
                 <a
                   className="portal btn btn-sm"
-                  href="http://marylandschool.educare.school/"
+                  href="https://marylandcomprehensive.educare.school/default.html#/admin/dashboard"
                   target="_blank"
                 >
                   PORTAL

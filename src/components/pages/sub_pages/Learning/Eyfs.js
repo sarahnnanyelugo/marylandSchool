@@ -19,7 +19,7 @@ function Eyfs() {
             <header>Senior School</header>
           </div>
 
-          <div className="col-md-12 flexy">
+          <div className="col-md-12 row flexy">
             <div className="col-md-10 sen">
               <h4>
                 GO BEYOND INSTRUCTION; INSPIRE LEADERSHIP{" "}

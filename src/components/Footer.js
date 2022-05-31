@@ -35,35 +35,34 @@ function Footer() {
             <div className="join-img">
               <img src={Enquire} alt="stairs " className="img-fluid" />
             </div>
-            <div className="ing-tag">
-              <Link to="/Contact">
+
+            <Link to="/Contact" className="go">
+              <div className="ing-tag">
                 <h4>Enquire</h4>
-              </Link>
-            </div>
+              </div>
+            </Link>
           </div>
           <div className="col-md-4 col-lg-4 col-sm-12 col-xs-12 ">
             <div className="join-img1">
               <img src={Visit} alt="stairs" className="img-fluid" />
             </div>
-            <div className="ing-tag">
-              <Link to="/Contact">
+
+            <Link to="/Contact" className="go">
+              <div className="ing-tag">
                 <h4>Visit</h4>
-              </Link>{" "}
-            </div>
+              </div>
+            </Link>
           </div>
           <div className="col-md-4 col-lg-4 col-sm-12 col-xs-12 ">
             <div className="join-img2 ">
               <img src={Apply} alt="stairs" className="img-fluid" />{" "}
-              {/* <div className="circ">
-                {" "}
-                <img src={Circle} alt="stairs" className="img-fluid " />
-              </div> */}
             </div>
-            <div className="ing-tag">
-              <Link to="/Apply">
+
+            <Link to="/Apply" className="go">
+              <div className="ing-tag">
                 <h4>Apply</h4>
-              </Link>{" "}
-            </div>
+              </div>
+            </Link>
           </div>
         </div>
       </div>

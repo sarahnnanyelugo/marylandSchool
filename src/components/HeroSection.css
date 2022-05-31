@@ -189,7 +189,7 @@
 
 
 .intro-container{
-    margin-top: 14rem;
+    margin-top: 7rem;
 }
 
 .intro-cover{
@@ -310,22 +310,31 @@
     width: 5rem;
     padding: 20px;
         font-size:10px !important;
-    margin-top:-16px !important;
 
 }
 
 .enquire-fixed{
     background-color: #191919;
-   
+         /* padding: 27px; */
+
+     padding: 20px 0 27px 15px;
+       margin-top:-16px !important;
+height:3.1rem !important;
+
 }
 
 .apply-fixed{
     background-color: #F29A38;
-    
+         padding: 25px 0 27px 15px;
+    margin-top:-19px !important;
+
 }
 
 .visit-fixed{
     background-color: #4CA149;
+         padding: 25px 0 27px 15px;
+    margin-top:-21px !important;
+height:3.4rem !important;
     
 }
 
@@ -333,6 +342,8 @@
     color: #ffff;
     font-size: 16px;
     text-decoration:none;
+    
+
 }
 
 .hooked-cov{
@@ -792,7 +803,7 @@
 }
 
 .marg{
-    margin-top: 17rem;
+    margin-top: 8rem;
 }
 
 

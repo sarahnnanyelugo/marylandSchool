@@ -315,7 +315,18 @@ padding-top: 20px;
 /* .sub-cover{
   padding: 20px;
 } */
-
+.interview a{
+  color:white;
+  background-color:rgb(68,143,65);
+  border:solid 1px rgb(68,143,65); 
+  padding:20px;
+  text-decoration:none;
+  /* margin-top:60px; */
+  font-size:20px;
+}
+.interbutton{
+  margin-left:50px;
+}
 .sub-menu{
   float: right;
   list-style: none;
@@ -714,4 +725,7 @@ min-height: 300px !important;
 
 .mov{
   margin-top:-300px !important
+}
+.font{
+  color:rgb(144,40,54)
 }

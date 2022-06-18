@@ -15,7 +15,7 @@ import Aisha from "../assets/aisa-logo-blk.png";
 import Apen from "../assets/Apen.png";
 import Microsoft from "../assets/Microsoft.png";
 
-import Circle from "../assets/Circle.svg";
+
 
 
 import "./Footer.css";
@@ -66,6 +66,11 @@ function Footer() {
           </div>
         </div>
       </div>
+
+
+
+
+
 
       <footer className="footer ">
         <div className="container-lg">

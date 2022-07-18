@@ -3,7 +3,7 @@ import Pex from "../../../../assets/building@2x.png";
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 import { CBreadcrumbItem } from '@coreui/react'
 import { CBreadcrumb } from '@coreui/react'
-import Pdf from "./interview.pdf";
+import Pdf from "./pdf2.pdf";
 
 import Interview from "../../../../assets/interview.png";
 

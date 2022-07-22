@@ -6,6 +6,8 @@ import Interhouse from "../assets/fe@2x.png";
 import Church from "../assets/1632735791._DSC3088eee@2x.png";
 import Circle2 from "../assets/Circle.png";
 import { Link } from "react-router-dom";
+import Pdf from "../assets/pdf2.pdf";
+import Interview from "../assets/interview.png";
 
 import "./Vision.css";
 
@@ -37,9 +39,18 @@ function Vision() {
           <Item>
             <div className="moreEvents">
               <ul className="event-list col-md-12 flexy">
-                <li>
-                  <img src={Violin} alt="" className="img-fluid" />
-                  <button className="event-btn">EVENT</button>
+                <li className="col-md-4">
+                  <a
+                    href={Pdf}
+                    without
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="btndownload col-md-12"
+                    style={{ textDecoration: "none", color: "black" }}
+                  >
+                    <img src={Interview} alt="" className="img-fluid" style={{ height: "380px" }}/>
+                    <button className="event-btn">NEWS</button>
+                  </a>
                 </li>
                 <li>
                   <img src={Interhouse} alt="" className="img-fluid" />

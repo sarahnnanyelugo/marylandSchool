@@ -212,7 +212,7 @@
     }
 
     .socials{
-        margin-top: 2rem;
+        margin-top: -30px;
     }
     
     .fullyear{
@@ -451,6 +451,31 @@
            .cir{
                display:none;
            }  
+
+
+    .socials{
+        margin-top: 0px !important;
+
+    }
+    .socials img{
+        height:25px !important;
+        margin-left:-30px !important;
+      
+
+    }
+
+.affliation{
+   
+    margin-top: 17rem  !important;
+
+}
+
+    .lined{
+        font-size: 10px;
+        font-weight: 500;
+/* margin-top:-30px; */
+margin-left:-30px !important;
+    }
         }
 
 
@@ -577,4 +602,19 @@
 
 .go{
     text-decoration: none !important;
+}
+
+
+
+.interview a{
+  color:white;
+  background-color:rgb(68,143,65);
+  border:solid 1px rgb(68,143,65); 
+  padding:20px;
+  text-decoration:none;
+  /* margin-top:60px; */
+  font-size:20px;
+}
+.interbutton{
+  margin-left:50px;
 }

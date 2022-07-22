@@ -14,6 +14,11 @@ import Apply from "../assets/1632735791._DSC3088rf@2x.png"
 import Aisha from "../assets/aisa-logo-blk.png";
 import Apen from "../assets/Apen.png";
 import Microsoft from "../assets/Microsoft.png";
+import Pdf from "../assets/pdf2.pdf";
+
+import Interview from "../assets/interview.png";
+
+
 
 
 
@@ -67,11 +72,6 @@ function Footer() {
         </div>
       </div>
 
-
-
-
-
-
       <footer className="footer ">
         <div className="container-lg">
           <div className="row">
@@ -119,7 +119,7 @@ function Footer() {
             <div className=" col-xl-4 col-md-4 col-sm-12 col-xs-12  mt-3 Army ">
               <div className="container-lg  Gap">
                 <div className="row">
-                  <div className="col-6">
+                  <div className="col-5">
                     <h6 className="use text-white">Useful Links </h6>
                     <ul className="grade-level">
                       <li>
@@ -136,7 +136,7 @@ function Footer() {
                       </li>
                     </ul>
                   </div>
-                  <div className="col-6">
+                  <div className="col-7">
                     <div className="w-mark">
                       <a
                         href={"http://educare.school/"}
@@ -150,10 +150,32 @@ function Footer() {
                         ></img>
                       </a>
                     </div>
+                    <div
+                      
+                      style={{ marginTop: "40px" }}
+                    >
+                     
+
+                     <small >Click to view successful interview candidates</small>
+                        {" "}
+                        <a
+                          href={Pdf}
+                          without
+                          rel="noopener noreferrer"
+                          target="_blank"
+                          className="btndownload"
+                        >
+                          <img
+                            src={Interview}
+                            alt="Header"
+                            className="img-fluid"
+                          />
+                        </a>
+                    </div>
                   </div>
                 </div>
 
-                <div>
+                
                   <div className="socials">
                     <header className="h5 text-white text-left lined ">
                       Connect And Share
@@ -179,7 +201,7 @@ function Footer() {
                         </a>
                       </li>
                     </ul>
-                  </div>
+                
                 </div>
               </div>
             </div>

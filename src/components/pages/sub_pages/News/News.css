@@ -14,10 +14,11 @@ display:flex;
     margin:30px;
 }
 .event1{
-    background-image:url(../../../../assets/vio.png);
+    background-image:url(../../../../assets/interview.png);
     background-repeat:no-repeat;
     background-position:center center;
     background-size:cover;
+    border:solid 2px black
 }
 
 .event2{

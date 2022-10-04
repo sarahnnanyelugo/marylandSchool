@@ -36,23 +36,12 @@ function SchoolNews() {
           </div>
 
           <div className="col-md-12 flexy">
-            <a
-              href={Pdf}
-              without
-              rel="noopener noreferrer"
-              target="_blank"
-              className="btndownload col-md-5"
-              style={{textDecoration:'none',color:'black'}}
-            >
-              <div className="col-md-12 event event1">
-                <h6 className="title">NEWS</h6>
-                <h5 style={{ backgroundColor: "black", color: "white" }}>
-                  LIST OF SUCCESSFUL TRANSFER CANDIDATES
-                </h5>
-              </div>
-            </a>
+            
 
-            <div className="col-md-5 event event2">
+            <div className="col-md-5 event event1">
+              <h6 className="title">EVENT</h6>
+              <h5>THANKSGIVING</h5>
+            </div> <div className="col-md-5 event event2">
               <h6 className="title">EVENT</h6>
               <h5>INTERHOUSE SPORTS</h5>
             </div>

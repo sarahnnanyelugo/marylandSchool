@@ -78,7 +78,7 @@ function Result() {
             <div className="col-md-12 flexy interview2">
               <div className="col-md-3">&nbsp;</div>
 
-              <div className="col-md-6 interview">
+              {/* <div className="col-md-6 interview">
                 <img src={Interview} alt="Header" className="img-fluid" />
                 <br />
                 <br />
@@ -96,7 +96,7 @@ function Result() {
                     Click to Download{" "}
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

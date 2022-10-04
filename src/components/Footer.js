@@ -150,58 +150,31 @@ function Footer() {
                         ></img>
                       </a>
                     </div>
-                    <div
-                      
-                      style={{ marginTop: "40px" }}
-                    >
-                     
-
-                     <small >Click to view successful interview candidates</small>
-                        {" "}
-                        <a
-                          href={Pdf}
-                          without
-                          rel="noopener noreferrer"
-                          target="_blank"
-                          className="btndownload"
-                        >
-                          <img
-                            src={Interview}
-                            alt="Header"
-                            className="img-fluid"
-                          />
-                        </a>
-                    </div>
+                    <div style={{ marginTop: "40px" }}> </div>
                   </div>
                 </div>
 
-                
-                  <div className="socials">
-                    <header className="h5 text-white text-left lined ">
-                      Connect And Share
-                    </header>
-                    <ul className="list-unstyled d-flex text-white mr-4 mb-4">
-                      <li className="  mr-4  dxty">
-                        <a href="#" className={"link"} target={"_blank"}>
-                          <img src={Face} alt="social" className="img-fluid" />
-                        </a>
-                      </li>
-                      <li className="mr-4 dxty med">
-                        <a href="#" className={"link"} target={"_blank"}>
-                          <img
-                            src={Twitter}
-                            alt="social"
-                            className="img-fluid"
-                          />
-                        </a>
-                      </li>
-                      <li className="mr-4 dxty">
-                        <a href="#" className={"link"} target={"_blank"}>
-                          <img src={Insta} alt="social" className="img-fluid" />
-                        </a>
-                      </li>
-                    </ul>
-                
+                <div className="socials" style={{ marginTop: "40px" }}>
+                  <header className="h5 text-white text-left lined ">
+                    Connect And Share
+                  </header>
+                  <ul className="list-unstyled d-flex text-white mr-4 mb-4">
+                    <li className="  mr-4  dxty">
+                      <a href="#" className={"link"} target={"_blank"}>
+                        <img src={Face} alt="social" className="img-fluid" />
+                      </a>
+                    </li>
+                    <li className="mr-4 dxty med">
+                      <a href="#" className={"link"} target={"_blank"}>
+                        <img src={Twitter} alt="social" className="img-fluid" />
+                      </a>
+                    </li>
+                    <li className="mr-4 dxty">
+                      <a href="#" className={"link"} target={"_blank"}>
+                        <img src={Insta} alt="social" className="img-fluid" />
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>

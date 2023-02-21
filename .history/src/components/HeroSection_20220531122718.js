@@ -23,7 +23,7 @@ import Play from "../assets/1632735791._DSC3088ed@2x.png";
 import Line from "../assets/Rectangle 10018@2x.png";
 import Circle from "../assets/Circle.svg";
 import Circle2 from "../assets/Circle.png";
-import GalleryIndex from "./gallery/GalleryIndex";
+import GalleryIndex from "./gallery/GalleryIndex"
 
 import Vision from "./Vision";
 import "./HeroSection.css";
@@ -32,7 +32,7 @@ function HeroSection() {
   return (
     <>
       <div className="page-trans ">
-        <div className="carousel-imggs">
+        <div>
           <Carousel fade>
             <Carousel.Item>
               <img

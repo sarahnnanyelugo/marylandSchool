@@ -128,11 +128,7 @@
     width: 20px;
     height: 80px;
 }
-@media screen and (max-width:620px){
-    .carousel-control-next::after{
-        display:none;
-    }
-}
+
 .carousel-control-prev {
     left: 1.5vw;
     transform: rotate(91deg) !important;
@@ -153,11 +149,6 @@
     width: 20px;
     height: 80px;
 }
-@media screen and (max-width:620px){
-    .carousel-control-prev::after{
-        display:none;
-    }
-}
 
 .carousel-control-next, .carousel-control-prev {
     position: absolute;
@@ -177,11 +168,10 @@
 
 
 @media screen and (max-width:620px){
-    .carousel-imggs img{
-        /* height:1000px !important; */
+    .carousel-imggs{
+        height:600px !important;
         transform: translateX(0%) translateY(0%);
-      object-fit: contain;
-      margin-top:0;
+      object-fit: cover;
     }
 }
 
